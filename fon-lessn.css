@@ -1,0 +1,25 @@
+ /*ׂוסע רנטפעמג. font-test.html*/
+body{line-height:2}
+div.arial {
+font-family:arial, courier;
+margin-top:20px;
+}
+div.helvetica {
+font-family:Helvetica, courier;
+margin-top:50px;
+}
+div.TimesNewRoman {
+font-family:"Times New Roman, courier";
+margin-top:50px;
+}
+div.MrsEaves {
+font-family:"Mrs Eaves", courier;
+margin-top:50px;
+}
+span.ari {
+font-weight:bold;
+}
+span.iar 
+{
+font-style: italic;
+}
