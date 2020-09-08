@@ -1,0 +1,65 @@
+ <xml version="1.0" encoding="UTF-8">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://WWW.W3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+ <head>
+   <title>Попробуйте.</title>
+   <link rel="stylesheet" type="text/css" href="registrat.css"/>
+ </head>
+ <body>
+ <div class="hhh">
+   <form name="frmExample" action="register.aspx" method="post">
+    <fieldset>
+     <legend>Зарегестрироваться.</legend>
+      <table>
+       <tr>
+        <td class="label">
+         <label for="fname">Имя: <span class="required">*</span></label>
+        </td>
+        <td class="form">
+         <input type="text" name="txtFirstName" id="fname" size="12"/>
+        </td>
+       </tr>
+       <tr>
+        <td class="label">
+         <label for="lname">Фамилия: <span class="required">*</span></label>
+        </td>
+        <td class="form">
+         <input type="text" name="txtLastName" id="lname" size="12"/>
+        </td>
+       </tr>
+       <tr><td>&nbsp;</td><td>&nbsp;</td></tr>
+       <tr>
+         <td class="label">
+          <label for="email">Электронный адресс: <span class="required">*</span></label>
+         </td>
+         <td class="form">
+           <input type="password" name="txtEmail" id="email" size="20"/>
+         </td>
+        </tr>
+        <tr><td>&nbsp;</td><td>&nbsp;</td></tr>
+        <tr>
+         <td class="label">
+          <label for="pwd">Пароль: <span class="required">*</span></label>
+         </td>
+         <td class="form">
+           <input type="password" name="txtPassword" id="pwd" size="12"/>
+           <span class="small">должен иметь длину от 6 до 12 символов</span>
+         </td>
+        </tr>
+        <tr>
+          <td class="label">
+          <label for="pwdConf">Подтверждение пароля: <span class="required">*</span></label>
+          </td>
+          <td class="form">
+            <input type="password" name="txtPasswordConf" id="pwdConf" size="12"/>
+          </td>
+         </tr>
+         <div class="submit"><input type="submit" value="Регистрация"/></div>
+         <span class="required">*</span> = Обязательно для заполнения.    
+      </table>
+    </fieldset>
+   </form>
+  </div>
+ </body>
+</html>
